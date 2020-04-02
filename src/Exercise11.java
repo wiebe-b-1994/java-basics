@@ -25,6 +25,6 @@ public class Exercise11 {
             total_value = total_value + (amount * price);
         }
 
-        System.out.println("total value: " + total_value);
+        System.out.println("total value equals: " + total_value);
     }
 }
