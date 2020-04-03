@@ -7,16 +7,14 @@ public class Exercise9 {
 
         System.out.println("Enter a number in the range of 1 and 10");
 
-
+        int number = scanner.nextInt();
 
         while(true) {
-            int number = scanner.nextInt();
-
-            if (number >= 1 | number <= 10) { // werkt nog niet goed
+            if (number >= 1 && number <= 10) {
                 System.out.println("valid");
                 break;
             }
-            System.out.println("invalid");
+            break;
         }
     }
 }
