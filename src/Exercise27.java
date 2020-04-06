@@ -16,7 +16,7 @@ public class Exercise27 {
             value = Math.round(rand_score);
             scores.add(value);
 
-            if (value >= 85.0 && value <= 90.0) {
+            if (value <= 90.0 && value >= 85.0) {
                 students++;
             }
         }
